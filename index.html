@@ -1,1 +1,41 @@
-Hi, This is onesinus
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Running Elephant</title>
+
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: linear-gradient(#87ceeb 70%, #4caf50 70%);
+      height: 100vh;
+    }
+
+    .elephant {
+      position: absolute;
+      bottom: 25%;
+      left: -250px;
+      font-size: 150px;
+      animation: run 8s linear infinite;
+    }
+
+    @keyframes run {
+      0% {
+        left: -250px;
+      }
+
+      100% {
+        left: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="elephant">🐘</div>
+
+</body>
+</html>
